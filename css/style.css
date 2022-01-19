@@ -2,32 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {}
-
+/* Containers */
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.alert-container .col-12 {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
-
 .callout-container {
     height: 100vh;
 
-    background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed;
+    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,27 +92,6 @@ body {
     color: #d0d0d0;
 }
 
-.quotes-container {}
-
-.features-container {}
-
-
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
 /* Block Dividers */
 .block-divider {
     border: 0;
@@ -173,6 +136,43 @@ body {
     border-color: #df4929;
 }
 
+/* Alerts */
+
+.alert-container .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -180,8 +180,8 @@ body {
 
 .feature i {
     margin-bottom: 20px;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 45px;
+    line-height: 45px;
 }
 
 .feature .btn {
@@ -190,6 +190,6 @@ body {
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
-    margin-top: 10px; 
+    margin-top: 10px;
     color: #f05f40;
 }
